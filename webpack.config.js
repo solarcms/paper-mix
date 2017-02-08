@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'example/dist'),
         filename: 'js/[name].js',
-        publicPath: './example'
+        publicPath: '/'
     },
 
     module: {
